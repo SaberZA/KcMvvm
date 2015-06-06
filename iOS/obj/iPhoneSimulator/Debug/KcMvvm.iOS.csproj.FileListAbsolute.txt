@@ -1,0 +1,16 @@
+C:\Apps\XamarinForms\KcMvvm\iOS\obj\iPhoneSimulator\Debug\Default-568h@2x.png
+C:\Apps\XamarinForms\KcMvvm\iOS\obj\iPhoneSimulator\Debug\KcMvvm.iOS.csprojResolveAssemblyReference.cache
+C:\Apps\XamarinForms\KcMvvm\iOS\bin\iPhoneSimulator\Debug\iOS.exe
+C:\Apps\XamarinForms\KcMvvm\iOS\bin\iPhoneSimulator\Debug\iOS.pdb
+C:\Apps\XamarinForms\KcMvvm\iOS\bin\iPhoneSimulator\Debug\Cirrious.CrossCore.dll
+C:\Apps\XamarinForms\KcMvvm\iOS\bin\iPhoneSimulator\Debug\Cirrious.CrossCore.Touch.dll
+C:\Apps\XamarinForms\KcMvvm\iOS\bin\iPhoneSimulator\Debug\Cirrious.MvvmCross.Binding.dll
+C:\Apps\XamarinForms\KcMvvm\iOS\bin\iPhoneSimulator\Debug\Cirrious.MvvmCross.Binding.Touch.dll
+C:\Apps\XamarinForms\KcMvvm\iOS\bin\iPhoneSimulator\Debug\Cirrious.MvvmCross.dll
+C:\Apps\XamarinForms\KcMvvm\iOS\bin\iPhoneSimulator\Debug\Cirrious.MvvmCross.Localization.dll
+C:\Apps\XamarinForms\KcMvvm\iOS\bin\iPhoneSimulator\Debug\Cirrious.MvvmCross.Touch.dll
+C:\Apps\XamarinForms\KcMvvm\iOS\bin\iPhoneSimulator\Debug\KcMvvm.Core.dll
+C:\Apps\XamarinForms\KcMvvm\iOS\bin\iPhoneSimulator\Debug\KcMvvm.Core.pdb
+C:\Apps\XamarinForms\KcMvvm\iOS\bin\iPhoneSimulator\Debug\KcMvvm.Core.dll.mdb
+C:\Apps\XamarinForms\KcMvvm\iOS\obj\iPhoneSimulator\Debug\iOS.exe
+C:\Apps\XamarinForms\KcMvvm\iOS\obj\iPhoneSimulator\Debug\iOS.pdb
