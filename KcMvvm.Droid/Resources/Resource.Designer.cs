@@ -87,6 +87,18 @@ namespace KcMvvm.Droid
 			// aapt resource value: 0x7f040000
 			public const int MvxBindingTagUnique = 2130968576;
 			
+			// aapt resource value: 0x7f040004
+			public const int buttonRegister = 2130968580;
+			
+			// aapt resource value: 0x7f040003
+			public const int editTextEmail = 2130968579;
+			
+			// aapt resource value: 0x7f040001
+			public const int editTextFirstName = 2130968577;
+			
+			// aapt resource value: 0x7f040002
+			public const int editTextLastName = 2130968578;
+			
 			static Id()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -104,7 +116,10 @@ namespace KcMvvm.Droid
 			public const int FirstView = 2130903040;
 			
 			// aapt resource value: 0x7f030001
-			public const int SplashScreen = 2130903041;
+			public const int LoginView = 2130903041;
+			
+			// aapt resource value: 0x7f030002
+			public const int SplashScreen = 2130903042;
 			
 			static Layout()
 			{

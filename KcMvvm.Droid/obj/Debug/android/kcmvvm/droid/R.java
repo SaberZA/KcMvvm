@@ -72,10 +72,15 @@ containing a value of this type.
     }
     public static final class id {
         public static final int MvxBindingTagUnique=0x7f040000;
+        public static final int buttonRegister=0x7f040004;
+        public static final int editTextEmail=0x7f040003;
+        public static final int editTextFirstName=0x7f040001;
+        public static final int editTextLastName=0x7f040002;
     }
     public static final class layout {
         public static final int firstview=0x7f030000;
-        public static final int splashscreen=0x7f030001;
+        public static final int loginview=0x7f030001;
+        public static final int splashscreen=0x7f030002;
     }
     public static final class string {
         public static final int ApplicationName=0x7f060001;
