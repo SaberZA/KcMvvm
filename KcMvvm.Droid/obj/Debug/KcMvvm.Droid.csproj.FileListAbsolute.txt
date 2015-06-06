@@ -24,6 +24,6 @@ C:\Apps\XamarinForms\KcMvvm\KcMvvm.Droid\obj\Debug\res\drawable\icon.png
 C:\Apps\XamarinForms\KcMvvm\KcMvvm.Droid\obj\Debug\res\values\splashstyle.xml
 C:\Apps\XamarinForms\KcMvvm\KcMvvm.Droid\obj\Debug\res\values\mvxbindingattributes.xml
 C:\Apps\XamarinForms\KcMvvm\KcMvvm.Droid\obj\Debug\res\drawable\splash.png
+C:\Apps\XamarinForms\KcMvvm\KcMvvm.Droid\obj\Debug\res\layout\loginview.xml
 C:\Apps\XamarinForms\KcMvvm\KcMvvm.Droid\obj\Debug\R.cs.flag
 C:\Apps\XamarinForms\KcMvvm\KcMvvm.Droid\obj\Debug\uploadflags.txt
-C:\Apps\XamarinForms\KcMvvm\KcMvvm.Droid\obj\Debug\res\layout\loginview.xml

@@ -12,6 +12,7 @@ namespace KcMvvm.Core
                 .RegisterAsLazySingleton();
 				
             RegisterAppStart<ViewModels.LoginViewModel>();
+
         }
     }
 }

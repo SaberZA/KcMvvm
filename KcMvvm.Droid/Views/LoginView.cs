@@ -9,6 +9,7 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
+using Cirrious.MvvmCross.Binding.BindingContext;
 using Cirrious.MvvmCross.Droid.Views;
 using KcMvvm.Core.ViewModels;
 
@@ -21,8 +22,6 @@ namespace KcMvvm.Droid.Views
         {
             base.OnCreate(bundle);
             SetContentView(Resource.Layout.LoginView);
-            // Create your application here
-            //ViewModel = new LoginViewModel();
         }
     }
 }

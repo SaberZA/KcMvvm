@@ -76,6 +76,9 @@ containing a value of this type.
         public static final int editTextEmail=0x7f040003;
         public static final int editTextFirstName=0x7f040001;
         public static final int editTextLastName=0x7f040002;
+        public static final int textView1=0x7f040005;
+        public static final int textView2=0x7f040006;
+        public static final int textView3=0x7f040007;
     }
     public static final class layout {
         public static final int firstview=0x7f030000;

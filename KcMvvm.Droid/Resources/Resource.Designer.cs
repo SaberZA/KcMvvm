@@ -99,6 +99,15 @@ namespace KcMvvm.Droid
 			// aapt resource value: 0x7f040002
 			public const int editTextLastName = 2130968578;
 			
+			// aapt resource value: 0x7f040005
+			public const int textView1 = 2130968581;
+			
+			// aapt resource value: 0x7f040006
+			public const int textView2 = 2130968582;
+			
+			// aapt resource value: 0x7f040007
+			public const int textView3 = 2130968583;
+			
 			static Id()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();

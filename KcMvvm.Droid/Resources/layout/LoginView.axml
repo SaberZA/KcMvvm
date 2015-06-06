@@ -25,4 +25,19 @@
         android:layout_height="wrap_content"
         android:id="@+id/buttonRegister"
         local:MvxBind="Click RegisterCommand" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        local:MvxBind="Text FirstName" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        local:MvxBind="Text LastName" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        local:MvxBind="Text Email" />
 </LinearLayout>
