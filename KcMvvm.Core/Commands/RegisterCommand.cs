@@ -19,6 +19,7 @@ namespace KcMvvm.Core.Commands
                             _loginViewModel.FirstName, 
                             _loginViewModel.LastName, 
                             _loginViewModel.Email);
+            _loginViewModel.OnLoggedIn();
         }
 
         public override bool CanExecute()

@@ -22,6 +22,13 @@ namespace KcMvvm.Droid.Views
         {
             base.OnCreate(bundle);
             SetContentView(Resource.Layout.LoginView);
+
+            ViewModel.LoggedIn += OnViewModelOnLoggedIn;
+        }
+
+        private void OnViewModelOnLoggedIn(object sender, EventArgs args)
+        {
+            Toast.MakeText(this, "Logged in", ToastLength.Short);
         }
     }
 }
