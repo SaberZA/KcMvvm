@@ -87,6 +87,7 @@ class MonoPackageManager_Resources {
 		"Cirrious.MvvmCross.dll",
 		"Cirrious.MvvmCross.Droid.dll",
 		"Cirrious.MvvmCross.Localization.dll",
+		"Cirrious.MvvmCross.Plugins.Messenger.dll",
 		"KcMvvm.Core.dll",
 		"System.Collections.Concurrent.dll",
 		"System.Collections.dll",

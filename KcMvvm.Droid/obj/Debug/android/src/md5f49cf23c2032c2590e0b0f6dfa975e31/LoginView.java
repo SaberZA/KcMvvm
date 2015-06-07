@@ -2,7 +2,7 @@ package md5f49cf23c2032c2590e0b0f6dfa975e31;
 
 
 public class LoginView
-	extends md57b8dd31b26d57b878589ceca204f3b49.MvxActivity_1
+	extends md5562ea8ea88bbdf203826d1ab511d79b5.KcActivity_1
 	implements
 		mono.android.IGCUserPeer
 {

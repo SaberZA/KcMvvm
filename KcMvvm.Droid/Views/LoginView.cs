@@ -9,26 +9,29 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
+using Cirrious.CrossCore;
 using Cirrious.MvvmCross.Binding.BindingContext;
 using Cirrious.MvvmCross.Droid.Views;
+using Cirrious.MvvmCross.Plugins.Messenger;
 using KcMvvm.Core.ViewModels;
 
 namespace KcMvvm.Droid.Views
 {
     [Activity(Label = "LoginView")]
-    public class LoginView : MvxActivity<LoginViewModel>
+    public class LoginView : KcActivity<LoginViewModel>
     {
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
             SetContentView(Resource.Layout.LoginView);
 
-            ViewModel.LoggedIn += OnViewModelOnLoggedIn;
+            ViewModel.LoggedIn += LoggedIn;
+
         }
 
-        private void OnViewModelOnLoggedIn(object sender, EventArgs args)
+        private void LoggedIn()
         {
-            Toast.MakeText(this, "Logged in", ToastLength.Short);
+            ShowToastMessage("Logged in", ToastLength.Short);
         }
     }
 }

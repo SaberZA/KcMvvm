@@ -6,6 +6,10 @@ KcMvvm.Droid.Views.FirstView, KcMvvm.Droid;md5f49cf23c2032c2590e0b0f6dfa975e31.F
 KcMvvm.Droid.Views.FirstView, KcMvvm.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5f49cf23c2032c2590e0b0f6dfa975e31.FirstView
 KcMvvm.Droid.Views.FirstView;md5f49cf23c2032c2590e0b0f6dfa975e31.FirstView
 kcmvvm.droid.views.FirstView;md5f49cf23c2032c2590e0b0f6dfa975e31.FirstView
+KcMvvm.Droid.KcActivity`1, KcMvvm.Droid;md5562ea8ea88bbdf203826d1ab511d79b5.KcActivity_1
+KcMvvm.Droid.KcActivity`1, KcMvvm.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5562ea8ea88bbdf203826d1ab511d79b5.KcActivity_1
+KcMvvm.Droid.KcActivity`1;md5562ea8ea88bbdf203826d1ab511d79b5.KcActivity_1
+kcmvvm.droid.KcActivity_1;md5562ea8ea88bbdf203826d1ab511d79b5.KcActivity_1
 KcMvvm.Droid.Views.LoginView, KcMvvm.Droid;md5f49cf23c2032c2590e0b0f6dfa975e31.LoginView
 KcMvvm.Droid.Views.LoginView, KcMvvm.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5f49cf23c2032c2590e0b0f6dfa975e31.LoginView
 KcMvvm.Droid.Views.LoginView;md5f49cf23c2032c2590e0b0f6dfa975e31.LoginView

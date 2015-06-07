@@ -6,6 +6,7 @@ C:\Apps\XamarinForms\KcMvvm\packages\MvvmCross.HotTuna.CrossCore.3.5.1\lib\MonoA
 C:\Apps\XamarinForms\KcMvvm\packages\MvvmCross.HotTuna.MvvmCrossLibraries.3.5.1\lib\MonoAndroid\Cirrious.MvvmCross.dll
 C:\Apps\XamarinForms\KcMvvm\packages\MvvmCross.HotTuna.MvvmCrossLibraries.3.5.1\lib\MonoAndroid\Cirrious.MvvmCross.Droid.dll
 C:\Apps\XamarinForms\KcMvvm\packages\MvvmCross.HotTuna.CrossCore.3.5.1\lib\MonoAndroid\Cirrious.MvvmCross.Localization.dll
+C:\Apps\XamarinForms\KcMvvm\packages\MvvmCross.HotTuna.Plugin.Messenger.3.5.1\lib\MonoAndroid\Cirrious.MvvmCross.Plugins.Messenger.dll
 C:\Apps\XamarinForms\KcMvvm\KcMvvm.Core\bin\Debug\KcMvvm.Core.dll
 C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Collections.Concurrent.dll
 C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Collections.dll

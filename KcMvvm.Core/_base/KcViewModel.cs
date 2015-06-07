@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using Cirrious.MvvmCross.ViewModels;
 using KcMvvm.Core.Commands;
 
-namespace KcMvvm.Core._base
+namespace KcMvvm.Core
 {
     public abstract class KcViewModel : MvxViewModel
     {

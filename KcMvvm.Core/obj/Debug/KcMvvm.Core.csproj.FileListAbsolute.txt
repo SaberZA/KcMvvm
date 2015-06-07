@@ -12,3 +12,4 @@ C:\Apps\XamarinForms\KcMvvm\KcMvvm.Core\bin\Debug\Cirrious.MvvmCross.dll
 C:\Apps\XamarinForms\KcMvvm\KcMvvm.Core\bin\Debug\Cirrious.MvvmCross.Localization.dll
 C:\Apps\XamarinForms\KcMvvm\KcMvvm.Core\obj\Debug\KcMvvm.Core.dll
 C:\Apps\XamarinForms\KcMvvm\KcMvvm.Core\obj\Debug\KcMvvm.Core.pdb
+C:\Apps\XamarinForms\KcMvvm\KcMvvm.Core\obj\Debug\KcMvvm.Core.csprojResolveAssemblyReference.cache

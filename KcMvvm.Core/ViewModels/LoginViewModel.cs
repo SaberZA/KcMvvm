@@ -1,5 +1,7 @@
 using System;
 using System.Diagnostics;
+using System.Windows.Input;
+using Cirrious.CrossCore;
 using Cirrious.MvvmCross.ViewModels;
 using KcMvvm.Core.Commands;
 using KcMvvm.Core._base;
@@ -42,23 +44,13 @@ namespace KcMvvm.Core.ViewModels
 
         public IMvxCommand RegisterCommand { get; set; }
 
-        
-
         #endregion
-
+        
         #region Events
 
-        public event LoggedInEventHandler LoggedIn;
-
-        public virtual void OnLoggedIn()
-        {
-            var handler = LoggedIn;
-            if (handler != null) handler(this, EventArgs.Empty);
-        }
+        public Action LoggedIn;
 
         #endregion
 
     }
-
-    public delegate void LoggedInEventHandler(object sender, EventArgs args);
 }
