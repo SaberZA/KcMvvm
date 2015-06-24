@@ -42,8 +42,17 @@ C:\Dev\BasicMvvmCross\KcMvvm.Droid\bin\Debug\Cirrious.MvvmCross.Droid.dll
 C:\Dev\BasicMvvmCross\KcMvvm.Droid\bin\Debug\Cirrious.MvvmCross.Localization.dll
 C:\Dev\BasicMvvmCross\KcMvvm.Droid\bin\Debug\Cirrious.MvvmCross.Plugins.Messenger.dll
 C:\Dev\BasicMvvmCross\KcMvvm.Droid\bin\Debug\KcMvvm.Core.dll
+C:\Dev\BasicMvvmCross\KcMvvm.Droid\bin\Debug\ReactiveUI.dll
+C:\Dev\BasicMvvmCross\KcMvvm.Droid\bin\Debug\Splat.dll
+C:\Dev\BasicMvvmCross\KcMvvm.Droid\bin\Debug\System.Reactive.Core.dll
+C:\Dev\BasicMvvmCross\KcMvvm.Droid\bin\Debug\System.Reactive.Interfaces.dll
+C:\Dev\BasicMvvmCross\KcMvvm.Droid\bin\Debug\System.Reactive.Linq.dll
 C:\Dev\BasicMvvmCross\KcMvvm.Droid\bin\Debug\KcMvvm.Core.pdb
 C:\Dev\BasicMvvmCross\KcMvvm.Droid\bin\Debug\KcMvvm.Core.dll.mdb
+C:\Dev\BasicMvvmCross\KcMvvm.Droid\bin\Debug\ReactiveUI.xml
+C:\Dev\BasicMvvmCross\KcMvvm.Droid\bin\Debug\System.Reactive.Core.xml
+C:\Dev\BasicMvvmCross\KcMvvm.Droid\bin\Debug\System.Reactive.Interfaces.xml
+C:\Dev\BasicMvvmCross\KcMvvm.Droid\bin\Debug\System.Reactive.Linq.xml
 C:\Dev\BasicMvvmCross\KcMvvm.Droid\obj\Debug\KcMvvm.Droid.csprojResolveAssemblyReference.cache
 C:\Dev\BasicMvvmCross\KcMvvm.Droid\obj\Debug\KcMvvm.Droid.dll
 C:\Dev\BasicMvvmCross\KcMvvm.Droid\obj\Debug\KcMvvm.Droid.pdb

@@ -138,6 +138,11 @@ class MonoPackageManager_Resources {
 		"System.Xml.ReaderWriter.dll",
 		"System.Xml.XDocument.dll",
 		"System.Xml.XmlSerializer.dll",
+		"ReactiveUI.dll",
+		"Splat.dll",
+		"System.Reactive.Core.dll",
+		"System.Reactive.Interfaces.dll",
+		"System.Reactive.Linq.dll",
 	};
 	public static final String[] Dependencies = new String[]{
 	};

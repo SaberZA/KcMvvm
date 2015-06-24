@@ -1,6 +1,16 @@
 ﻿<Properties StartupItem="iOS\KcMvvm.iOS.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="KcMvvm.Core\_base\KcViewModel.cs">
+    <Files>
+      <File FileName="KcMvvm.Core\_base\KcCommand.cs" Line="15" Column="26" />
+      <File FileName="KcMvvm.Core\_base\KcViewModel.cs" Line="13" Column="53" />
+      <File FileName="KcMvvm.Core\ViewModels\FirstViewModel.cs" Line="1" Column="1" />
+      <File FileName="KcMvvm.Core\ViewModels\LoginViewModel.cs" Line="1" Column="1" />
+      <File FileName="KcMvvm.Core\App.cs" Line="1" Column="1" />
+      <File FileName="KcMvvm.Droid\Views\LoginView.cs" Line="22" Column="6" />
+      <File FileName="KcMvvm.Droid\_base\KcActivity.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

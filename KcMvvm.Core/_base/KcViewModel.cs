@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Cirrious.MvvmCross.ViewModels;
 using KcMvvm.Core.Commands;
+using ReactiveUI;
 
 namespace KcMvvm.Core
 {
@@ -34,4 +35,10 @@ namespace KcMvvm.Core
 
         }
     }
+
+	public class AppViewModel : ReactiveObject
+	{
+
+	}
+
 }

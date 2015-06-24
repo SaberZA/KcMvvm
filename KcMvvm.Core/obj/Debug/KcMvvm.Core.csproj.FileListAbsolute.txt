@@ -18,6 +18,17 @@ C:\Dev\BasicMvvmCross\KcMvvm.Core\bin\Debug\KcMvvm.Core.pdb
 C:\Dev\BasicMvvmCross\KcMvvm.Core\bin\Debug\Cirrious.CrossCore.dll
 C:\Dev\BasicMvvmCross\KcMvvm.Core\bin\Debug\Cirrious.MvvmCross.dll
 C:\Dev\BasicMvvmCross\KcMvvm.Core\bin\Debug\Cirrious.MvvmCross.Localization.dll
+C:\Dev\BasicMvvmCross\KcMvvm.Core\bin\Debug\ReactiveUI.dll
+C:\Dev\BasicMvvmCross\KcMvvm.Core\bin\Debug\Splat.dll
+C:\Dev\BasicMvvmCross\KcMvvm.Core\bin\Debug\System.Reactive.Core.dll
+C:\Dev\BasicMvvmCross\KcMvvm.Core\bin\Debug\System.Reactive.Interfaces.dll
+C:\Dev\BasicMvvmCross\KcMvvm.Core\bin\Debug\System.Reactive.Linq.dll
+C:\Dev\BasicMvvmCross\KcMvvm.Core\bin\Debug\System.Reactive.PlatformServices.dll
+C:\Dev\BasicMvvmCross\KcMvvm.Core\bin\Debug\System.Reactive.Interfaces.xml
+C:\Dev\BasicMvvmCross\KcMvvm.Core\bin\Debug\System.Reactive.Core.xml
+C:\Dev\BasicMvvmCross\KcMvvm.Core\bin\Debug\System.Reactive.Linq.xml
+C:\Dev\BasicMvvmCross\KcMvvm.Core\bin\Debug\System.Reactive.PlatformServices.xml
+C:\Dev\BasicMvvmCross\KcMvvm.Core\bin\Debug\ReactiveUI.xml
 C:\Dev\BasicMvvmCross\KcMvvm.Core\obj\Debug\KcMvvm.Core.csprojResolveAssemblyReference.cache
 C:\Dev\BasicMvvmCross\KcMvvm.Core\obj\Debug\KcMvvm.Core.dll
 C:\Dev\BasicMvvmCross\KcMvvm.Core\obj\Debug\KcMvvm.Core.pdb
