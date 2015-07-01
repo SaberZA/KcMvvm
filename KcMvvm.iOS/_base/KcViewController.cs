@@ -8,6 +8,7 @@ using UIKit;
 using Cirrious.MvvmCross.Touch.Views;
 using KcMvvm.Core;
 using Cirrious.MvvmCross.Binding.BindingContext;
+using Cirrious.MvvmCross.ViewModels;
 
 namespace KcMvvm.iOS
 {
@@ -20,9 +21,9 @@ namespace KcMvvm.iOS
         public KcViewController(IntPtr handle) : base(handle)
         {}
 
-        protected MvxFluentBindingDescriptionSet<TTarget, TSource> CreateBindingSet<TTarget, TSource>() where TTarget : class, IMvxBindingContextOwner
+        protected MvxFluentBindingDescriptionSet<KcViewController<T>, T> CreateBindingSetKc<MvxViewController, MvxViewModel>()
         {
-            return this.CreateBindingSet<TTarget, TSource>();
+            return this.CreateBindingSet<KcViewController<T>, T>();
         }
     }
 }

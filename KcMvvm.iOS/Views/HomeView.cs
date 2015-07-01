@@ -21,8 +21,8 @@ namespace KcMvvm.iOS.Views
         {
             base.ViewDidLoad();
 
-            var set = this.CreateBindingSet<FirstView, Core.ViewModels.FirstViewModel>();
-            set.Bind(TitleTextView).To(vm => vm.Hello);
+            var set = this.CreateBindingSetKc<HomeView, HomeViewModel>();
+            set.Bind(TitleTextView).To(vm => vm.Title);
             set.Apply();
         }
 

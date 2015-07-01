@@ -3,15 +3,27 @@ using Cirrious.MvvmCross.ViewModels;
 using Cirrious.MvvmCross.Touch.Platform;
 using UIKit;
 using Mindscape.Raygun4Net;
+using KcMvvm.iOS.Containers;
+using Cirrious.MvvmCross.Touch.Views;
+using Cirrious.MvvmCross.Touch.Views.Presenters;
 
 namespace KcMvvm.iOS
 {
 	public class Setup : MvxTouchSetup
 	{
-		public Setup(MvxApplicationDelegate applicationDelegate, UIWindow window)
-            : base(applicationDelegate, window)
+        private AppDelegate appDelegate;
+        private UIWindow _window;
+
+        public Setup(MvxApplicationDelegate applicationDelegate, IMvxTouchViewPresenter presenter)
+            : base(applicationDelegate, presenter)
 		{
 		}
+
+        public Setup(AppDelegate appDelegate, UIWindow _window)
+            : base(appDelegate, _window)
+        {
+           
+        }
 
 		protected override IMvxApplication CreateApp()
 		{
@@ -22,6 +34,11 @@ namespace KcMvvm.iOS
         protected override IMvxTrace CreateDebugTrace()
         {
             return new DebugTrace();
+        }
+
+        protected override IMvxTouchViewsContainer CreateTouchViewsContainer()
+        {
+            return new MyContainer();
         }
 	}
 }

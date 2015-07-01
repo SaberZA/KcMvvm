@@ -11,11 +11,19 @@ using UIKit;
 
 namespace KcMvvm.iOS.Views
 {
-	[Register ("LoginViewController")]
-	partial class LoginViewController
+	[Register ("LoginView")]
+	partial class LoginView
 	{
+		[Outlet]
+		[GeneratedCode ("iOS Designer", "1.0")]
+		UIButton HomeButton { get; set; }
+
 		void ReleaseDesignerOutlets ()
 		{
+			if (HomeButton != null) {
+				HomeButton.Dispose ();
+				HomeButton = null;
+			}
 		}
 	}
 }

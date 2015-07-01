@@ -84,11 +84,8 @@
     <CodesignKey>iPhone Distribution</CodesignKey>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Containers\MyContainer.cs" />
     <Compile Include="DebugTrace.cs" />
-    <Compile Include="HomeView.cs" />
-    <Compile Include="HomeView.designer.cs">
-      <DependentUpon>HomeView.cs</DependentUpon>
-    </Compile>
     <Compile Include="LinkerPleaseInclude.cs" />
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />

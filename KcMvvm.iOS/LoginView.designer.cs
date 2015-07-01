@@ -11,8 +11,8 @@ using UIKit;
 
 namespace KcMvvm.iOS
 {
-	[Register ("HomeView")]
-	partial class HomeView
+	[Register ("LoginView")]
+	partial class LoginView
 	{
 		void ReleaseDesignerOutlets ()
 		{
