@@ -5,7 +5,7 @@ using Android.Widget;
 
 namespace KcMvvm.Droid
 {
-	public class KcActivity<T> : MvxActivity<T>
+	public abstract class KcActivity<T> : MvxActivity<T>
 		where T: KcViewModel
 	{
 		public KcActivity ()

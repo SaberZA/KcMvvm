@@ -1,4 +1,6 @@
 using Cirrious.CrossCore.IoC;
+using KcMvvm.Core.ViewModels;
+using KcMvvm.Core.ViewModels.LoginViewModel;
 
 namespace KcMvvm.Core
 {
@@ -6,12 +8,13 @@ namespace KcMvvm.Core
     {
         public override void Initialize()
         {
+
             CreatableTypes()
                 .EndingWith("Service")
                 .AsInterfaces()
                 .RegisterAsLazySingleton();
 				
-            RegisterAppStart<ViewModels.LoginViewModel>();
+            RegisterAppStart<LoginViewModel>();
 
         }
     }

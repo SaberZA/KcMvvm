@@ -1,18 +1,19 @@
-﻿<Properties StartupItem="iOS\KcMvvm.iOS.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="KcMvvm.Core\_base\KcViewModel.cs">
+﻿<Properties StartupItem="KcMvvm.Droid\KcMvvm.Droid.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.SelectDevice" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="KcMvvm.Droid\Views\HomeView.cs">
     <Files>
-      <File FileName="KcMvvm.Core\_base\KcCommand.cs" Line="15" Column="26" />
-      <File FileName="KcMvvm.Core\_base\KcViewModel.cs" Line="13" Column="53" />
+      <File FileName="KcMvvm.Core\_base\KcCommand.cs" Line="1" Column="1" />
+      <File FileName="KcMvvm.Core\_base\KcViewModel.cs" Line="20" Column="10" />
       <File FileName="KcMvvm.Core\ViewModels\FirstViewModel.cs" Line="1" Column="1" />
-      <File FileName="KcMvvm.Core\ViewModels\LoginViewModel.cs" Line="1" Column="1" />
       <File FileName="KcMvvm.Core\App.cs" Line="1" Column="1" />
-      <File FileName="KcMvvm.Droid\Views\LoginView.cs" Line="22" Column="6" />
+      <File FileName="KcMvvm.Droid\Views\LoginView.cs" Line="1" Column="1" />
       <File FileName="KcMvvm.Droid\_base\KcActivity.cs" Line="1" Column="1" />
+      <File FileName="KcMvvm.Droid\Views\HomeView.cs" Line="21" Column="43" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.KcMvvm.Droid AndroidDesignerPreferredDevice="Nexus 4" />
 </Properties>

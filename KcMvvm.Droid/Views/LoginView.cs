@@ -14,6 +14,7 @@ using Cirrious.MvvmCross.Binding.BindingContext;
 using Cirrious.MvvmCross.Droid.Views;
 using Cirrious.MvvmCross.Plugins.Messenger;
 using KcMvvm.Core.ViewModels;
+using KcMvvm.Core.ViewModels.LoginViewModel;
 
 namespace KcMvvm.Droid.Views
 {
@@ -26,7 +27,6 @@ namespace KcMvvm.Droid.Views
             SetContentView(Resource.Layout.LoginView);
 
             ViewModel.LoggedIn += LoggedIn;
-
         }
 
         private void LoggedIn()

@@ -26,6 +26,7 @@ namespace KcMvvm.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::Mindscape.Raygun4Net.Xamarin.Android.Resource.String.library_name = global::KcMvvm.Droid.Resource.String.library_name;
 		}
 		
 		public partial class Attribute
@@ -69,7 +70,10 @@ namespace KcMvvm.Droid
 			public const int Icon = 2130837504;
 			
 			// aapt resource value: 0x7f020001
-			public const int splash = 2130837505;
+			public const int monoandroidsplash = 2130837505;
+			
+			// aapt resource value: 0x7f020002
+			public const int splash = 2130837506;
 			
 			static Drawable()
 			{
@@ -84,29 +88,29 @@ namespace KcMvvm.Droid
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f040000
-			public const int MvxBindingTagUnique = 2130968576;
+			// aapt resource value: 0x7f050000
+			public const int MvxBindingTagUnique = 2131034112;
 			
-			// aapt resource value: 0x7f040004
-			public const int buttonRegister = 2130968580;
+			// aapt resource value: 0x7f050005
+			public const int buttonRegister = 2131034117;
 			
-			// aapt resource value: 0x7f040003
-			public const int editTextEmail = 2130968579;
+			// aapt resource value: 0x7f050004
+			public const int editTextEmail = 2131034116;
 			
-			// aapt resource value: 0x7f040001
-			public const int editTextFirstName = 2130968577;
+			// aapt resource value: 0x7f050002
+			public const int editTextFirstName = 2131034114;
 			
-			// aapt resource value: 0x7f040002
-			public const int editTextLastName = 2130968578;
+			// aapt resource value: 0x7f050003
+			public const int editTextLastName = 2131034115;
 			
-			// aapt resource value: 0x7f040005
-			public const int textView1 = 2130968581;
+			// aapt resource value: 0x7f050001
+			public const int textView1 = 2131034113;
 			
-			// aapt resource value: 0x7f040006
-			public const int textView2 = 2130968582;
+			// aapt resource value: 0x7f050006
+			public const int textView2 = 2131034118;
 			
-			// aapt resource value: 0x7f040007
-			public const int textView3 = 2130968583;
+			// aapt resource value: 0x7f050007
+			public const int textView3 = 2131034119;
 			
 			static Id()
 			{
@@ -125,10 +129,13 @@ namespace KcMvvm.Droid
 			public const int FirstView = 2130903040;
 			
 			// aapt resource value: 0x7f030001
-			public const int LoginView = 2130903041;
+			public const int HomeView = 2130903041;
 			
 			// aapt resource value: 0x7f030002
-			public const int SplashScreen = 2130903042;
+			public const int LoginView = 2130903042;
+			
+			// aapt resource value: 0x7f030003
+			public const int SplashScreen = 2130903043;
 			
 			static Layout()
 			{
@@ -143,11 +150,14 @@ namespace KcMvvm.Droid
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f060001
-			public const int ApplicationName = 2131099649;
+			// aapt resource value: 0x7f040002
+			public const int ApplicationName = 2130968578;
 			
-			// aapt resource value: 0x7f060000
-			public const int Hello = 2131099648;
+			// aapt resource value: 0x7f040001
+			public const int Hello = 2130968577;
+			
+			// aapt resource value: 0x7f040000
+			public const int library_name = 2130968576;
 			
 			static String()
 			{
@@ -162,8 +172,11 @@ namespace KcMvvm.Droid
 		public partial class Style
 		{
 			
-			// aapt resource value: 0x7f050000
-			public const int Theme_Splash = 2131034112;
+			// aapt resource value: 0x7f060001
+			public const int Mono_Android_Theme_Splash = 2131099649;
+			
+			// aapt resource value: 0x7f060000
+			public const int Theme_Splash = 2131099648;
 			
 			static Style()
 			{

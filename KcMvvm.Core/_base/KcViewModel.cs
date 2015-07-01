@@ -32,13 +32,14 @@ namespace KcMvvm.Core
         public override void RaisePropertyChanged(PropertyChangedEventArgs changedArgs)
         {
             base.RaisePropertyChanged(changedArgs);
-
         }
+
+        public virtual void ShowViewModel<T>()
+            where T : KcViewModel
+        {
+            base.ShowViewModel<T>();
+        }
+
     }
-
-	public class AppViewModel : ReactiveObject
-	{
-
-	}
-
+    
 }
