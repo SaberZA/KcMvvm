@@ -4,7 +4,7 @@ using Cirrious.MvvmCross.ViewModels;
 
 namespace KcMvvm.Core._base
 {
-    public abstract class KcCommand : IMvxCommand, ICommand
+    public abstract class KcCommand : IKcCommand
     {
         public void RaiseCanExecuteChanged()
         {

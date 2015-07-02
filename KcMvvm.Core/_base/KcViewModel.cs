@@ -7,10 +7,11 @@ using System.Threading.Tasks;
 using Cirrious.MvvmCross.ViewModels;
 using KcMvvm.Core.Commands;
 using ReactiveUI;
+using KcMvvm.Core._base;
 
 namespace KcMvvm.Core
 {
-    public abstract class KcViewModel : MvxViewModel
+    public abstract class KcViewModel : MvxViewModel, IKcViewModel
     {
         private KcCommandFactory _commandFactory;
 
@@ -19,7 +20,7 @@ namespace KcMvvm.Core
             _commandFactory = new KcCommandFactory();
         }
 
-        protected IMvxCommand CreateCommand(IMvxCommand command)
+        public IMvxCommand CreateCommand(IMvxCommand command)
         {
             return _commandFactory.CreateCommand(command);
         }

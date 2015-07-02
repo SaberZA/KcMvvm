@@ -19,12 +19,7 @@ namespace KcMvvm.iOS
     public partial class AppDelegate : MvxApplicationDelegate
     {
         // class-level declarations
-        UIWindow _window;            
-        //public override UIWindow Window
-        //{
-        //    get;
-        //    set;
-        //}
+        UIWindow _window;
 
         //
         // This method is invoked when the application has loaded and is ready to run. In this 
@@ -38,10 +33,10 @@ namespace KcMvvm.iOS
 
             // create a new window instance based on the screen size
             _window = new UIWindow(UIScreen.MainScreen.Bounds);
-            //var presenter = new MvxTouchViewPresenter(this, Window);
+            var presenter = new MvxTouchViewPresenter(this, _window);
 
-            //var setup = new Setup(this, presenter);
-            var setup = new Setup(this, _window);
+            var setup = new Setup(this, presenter);
+            //var setup = new Setup(this, _window);
             setup.Initialize();
 
             var startup = Mvx.Resolve<IMvxAppStart>();

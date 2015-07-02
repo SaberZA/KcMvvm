@@ -5,13 +5,18 @@ using Cirrious.MvvmCross.ViewModels;
 
 namespace KcMvvm.Core.Commands
 {
-    public class KcCommandFactory
+    public class KcCommandFactory : IKcCommandFactory
     {
         private List<IMvxCommand> _commands;
 
-        public KcCommandFactory()
+        public KcCommandFactory(List<IMvxCommand> commands = null)
         {
-            _commands = new List<IMvxCommand>();
+            LoadCommands(commands);
+        }
+
+        public void LoadCommands(List<IMvxCommand> commands = null)
+        {
+            _commands = commands ?? new List<IMvxCommand>();
         }
 
         public IMvxCommand CreateCommand(IMvxCommand command)

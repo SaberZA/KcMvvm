@@ -38,12 +38,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.cs" />
-    <Compile Include="Commands\KcCommandFactory.cs" />
+    <Compile Include="_base\IKcCommandFactory.cs" />
+    <Compile Include="_base\KcCommandFactory.cs" />
     <Compile Include="ViewModels\HomeViewModel\HomeViewModel.cs" />
+    <Compile Include="_base\IKcCommand.cs" />
+    <Compile Include="_base\IKcViewModel.cs" />
     <Compile Include="_base\KcCommand.cs" />
     <Compile Include="ViewModels\LoginViewModel\RegisterCommand.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ViewModels\FirstViewModel.cs" />
     <Compile Include="ViewModels\LoginViewModel\LoginViewModel.cs" />
     <Compile Include="_base\KcViewModel.cs" />
   </ItemGroup>

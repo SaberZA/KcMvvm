@@ -11,9 +11,6 @@ namespace KcMvvm.iOS
 {
 	public class Setup : MvxTouchSetup
 	{
-        private AppDelegate appDelegate;
-        private UIWindow _window;
-
         public Setup(MvxApplicationDelegate applicationDelegate, IMvxTouchViewPresenter presenter)
             : base(applicationDelegate, presenter)
 		{
@@ -38,7 +35,7 @@ namespace KcMvvm.iOS
 
         protected override IMvxTouchViewsContainer CreateTouchViewsContainer()
         {
-            return new MyContainer();
+            return new KcContainer();
         }
 	}
 }
